@@ -1,0 +1,32 @@
+section {    
+    height: 300px;
+    background-color: #2e558c;   
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+img {
+    height: 200px;
+    border-radius: 100%;
+}
+
+
+article.info {
+    width: 500px;
+    color: white;
+    text-align: justify;
+}
+
+article.info h1 {
+    font-size: 50px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+article.info p {
+    font-weight: 200;
+}
